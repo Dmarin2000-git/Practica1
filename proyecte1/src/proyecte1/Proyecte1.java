@@ -42,5 +42,6 @@ public class Proyecte1 {
     
     public static void calcularIMC(double peso, double altura){
         //formula para calcular el IMC
+        System.out.println("IMC:  " + String.format("%.2f",peso/(altura*altura)));
     }
 }
